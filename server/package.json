@@ -7,7 +7,6 @@
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Peter Coles",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
