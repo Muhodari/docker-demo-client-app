@@ -1,6 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# A basic react application
 
-In dev, you can access the dev server for this. In production, this is container is built to static files and that output is packaged in the server container.
+## Getting started
 
-You can find more Create React App info
-[here](https://github.com/facebook/create-react-app/blob/v3.1.2/packages/react-scripts/template/README.md).
+- clone the repo
+- cd `docker-compose-demo/client`
+
+
+## Building image
+
+This is to build an image for the client in case you want to learn the client in a separate container
+
+### Building the image
+
+```sh
+ docker build . -t <docker-usernmae>/<appname>
+ # docker build . -t patrickniyo/client
+```
+
+### Running the docker image
+
+```sh
+docker run -p <host-port>/<app exposed port> <image-name or image id>
+# docker run -p 3000:3000 patrickniyo/client
+```
+
+### Publishing the image to docker hub
+
+```sh
+docker push <image name or image name
+# docker push patrickniyo/client
+```
+
+
+
