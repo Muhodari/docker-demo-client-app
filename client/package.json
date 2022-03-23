@@ -13,7 +13,6 @@
     "web-vitals": "^2.1.4"
   },
   "author": "patrickniyogitare28@gmail.com",
-  "repository": "https://github.com/PatrickNiyogitare28/reactjs-beginners-demo.git",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
